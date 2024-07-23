@@ -7,11 +7,7 @@ Ce dépôt est un template de base pour démarrer rapidement un projet utilisant
 - [Caractéristiques](#caractéristiques)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Structure du projet](#structure-du-projet)
-- [Scripts disponibles](#scripts-disponibles)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
+
 
 ## Caractéristiques
 
@@ -31,13 +27,13 @@ Ce dépôt est un template de base pour démarrer rapidement un projet utilisant
 1. Clonez le dépôt :
 
     ```bash
-    git clone https://github.com/votre-utilisateur/nom-du-repo.git
+    git clone https://github.com/Akab404/react-tailwind-templ
     ```
 
 2. Accédez au dossier du projet :
 
     ```bash
-    cd nom-du-repo
+    cd react-tailwind-templ
     ```
 
 3. Installez les dépendances :
@@ -51,51 +47,3 @@ Ce dépôt est un template de base pour démarrer rapidement un projet utilisant
     ```bash
     yarn install
     ```
-
-## Utilisation
-
-Pour démarrer le serveur de développement :
-
-```bash
-npm run dev
-ou
-
-bash
-Copier le code
-yarn dev
-L'application sera disponible sur http://localhost:3000.
-
-Structure du projet
-plaintext
-Copier le code
-.
-├── public
-│   └── index.html
-├── src
-│   ├── assets
-│   ├── components
-│   ├── pages
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .eslintrc.js
-├── .prettierrc
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-public/ : Contient les fichiers statiques.
-src/ : Contient les fichiers sources de l'application.
-assets/ : Contient les ressources statiques comme les images, les polices, etc.
-components/ : Contient les composants React réutilisables.
-pages/ : Contient les composants de page.
-App.jsx : Composant principal de l'application.
-main.jsx : Point d'entrée de l'application.
-index.css : Fichier CSS principal.
-Scripts disponibles
-dev : Démarre le serveur de développement.
-build : Compile l'application pour la production.
-serve : Servir l'application compilée.
-lint : Lint le code source en utilisant ESLint.
-format : Formate le code source en utilisant Prettier.
-test : Exécute les tests en utilisant Jest.
